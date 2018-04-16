@@ -8,7 +8,7 @@ module.exports = class Meow extends Base {
             usage: "",
             category: "fun",
             permLevel: 0,
-            cooldown: 60000
+            cooldown: 0
         });
 
         Object.defineProperty(this, "gameType", {
@@ -34,7 +34,14 @@ module.exports = class Meow extends Base {
                 "A board game",
                 "A mob arena game",
                 "A dropper game",
-                "A spleef game"
+                "A spleef game",
+                "A giveaway game",
+                "A magic game",
+                "A very gay game",
+                "A dungeon crawler game",
+                "An original game",
+                "A joke game"
+                
             ]
         });
         
